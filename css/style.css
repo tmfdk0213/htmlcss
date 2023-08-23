@@ -23,7 +23,11 @@
   margin-right: auto;
   text-align: center;
   font-size: 10px;
-  /* font-size는 부모 -> 자식으로 inherit됩니다 */
+  color: black;
+
+  box-shadow: 5px 5px;
+  /* font-size는 부모 -> 자식으로 inherit됩니다
+  color, font family 등등 */
 }
 /* margin(상하좌우 여백)
 padding(상하좌우 안쪽 여백) 

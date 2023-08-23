@@ -1,0 +1,33 @@
+.profile {
+  width: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.title {
+  text-align: center;
+}
+
+.content {
+  text-align: center;
+}
+
+.box {
+  width: 100px;
+  background-color: cadetblue;
+  margin: 30px;
+  padding: 40px;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 10px;
+  /* font-size는 부모 -> 자식으로 inherit됩니다 */
+}
+/* margin(상하좌우 여백)
+padding(상하좌우 안쪽 여백) 
+border(테두리)
+border-radius (모서리 동그랗게)
+<div> <p> <h> 는 display block이 기본으로 있음
+*/
